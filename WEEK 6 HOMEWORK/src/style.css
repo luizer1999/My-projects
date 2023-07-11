@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container {
+  margin-top: 130px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 900px;
+  height: fit-content;
+  background-color: #64c4ed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10px;
+  background-image: url("../images/sunset.png");
+  border-radius: 15px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 10pc;
+}
+h1 {
+  margin: 0 auto;
+  display: block;
+  font-size: 28px;
+  padding: 10px;
+  color: #57385c;
+}
+
+.geo-icon,
+.col,
+.weather-icon,
+.temp,
+.forecast,
+hr {
+  color: #fff;
+  text-align: left;
+  position: relative;
+
+}
+hover:hr{
+  text-decoration: none;
+}
+
+.geo-icon {
+  font-size: 15px;
+  text-align: left;
+  position: relative;
+}
+h2 {
+  font-size: 20px;
+  text-decoration: none;
+}
+h3 {
+  font-size: 20px;
+}
+.weather-icon {
+  text-align: left;
+  padding-top: 7px;
+}
+.temp {
+  font-size: 20px;
+}
+.forecast {
+  font-size: 14px;
+  opacity: 70%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  text-align: center;
+}
+.coder{
+  font-size:12px;
+}
+
+
